@@ -1,12 +1,13 @@
-body {
-  /*padding-top: 80px;*/
+body, html {
   font-family: Arial;
+  margin: 0;
+  font-size: 20px;
 }
 h1 {
-  margin-top: 80px;
+  margin-top: 5rem;
 }
 h2 {
-  font-size: 50px;
+  font-size: 2rem;
 }
 a {
   text-decoration: none;
@@ -16,11 +17,11 @@ a:visited {
 }
 nav ul li {
   color: #fff;
-  font-size: 18px;
+  font-size: 30px;
   display: inline-block;
   border: 1px solid #BB020A;
   border-radius: 3px;
-  padding: 5px 10px;
+  padding: 15px 30px;
   margin: 10px 20px;
   background-color: #BB020A;
 }
@@ -63,3 +64,38 @@ nav>ul {
   top: 0;
   left: 0;
 }
+.homepage-heading {
+  font-size: 3rem;
+}
+.main-image {
+  width: 50%;
+}
+
+@media(max-width: 879px) {
+  .homepage-heading {
+    font-size: 30px;
+    margin-top: 100px;
+  }
+  nav ul li {
+    font-size: 15px;
+    padding: 10px 10px;
+  }
+  .main-image {
+    width: 80%;
+  }
+}
+
+@media(max-width: 546px) {
+  .homepage-heading {
+    font-size: 30px;
+    margin-top: 250px;
+  }
+  nav ul li {
+    margin: 10px 0px;
+    display: block;
+  }
+
+}
+
+
+
